@@ -1,8 +1,7 @@
 # AddBench: reproducible three-model pilot
 
 This artifact contains the code, exact inputs and measured outputs from the
-November 2, 2026 AddBench pilot. It tests whether lower-priority instructions
-induce an unauthorized extra task while the system explicitly closes the scope.
+benchmark for role confusion work based on the blog post https://www.lesswrong.com/posts/d8xDGzCEYE639qqEv/a-mechanistic-explanation-of-prompt-injection-and-why-you.
 
 **48 cases per model; 144 measured responses total.** Four tasks (counting,
 sentiment, extraction, uppercase) × six phrasings (baseline, direct,
