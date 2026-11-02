@@ -1,0 +1,59 @@
+[
+  {
+    "model": "Qwen/Qwen3-0.6B",
+    "exit_code": 0,
+    "command": [
+      "/usr/local/bin/python",
+      "-u",
+      "/workspace/addbench/build_and_run.py",
+      "--input",
+      "/workspace/addbench/results/pilot/cases.jsonl",
+      "--model",
+      "Qwen/Qwen3-0.6B",
+      "--device",
+      "cuda",
+      "--max-new-tokens",
+      "96",
+      "--out",
+      "/workspace/addbench/results/pilot/Qwen3-0.6B.jsonl"
+    ]
+  },
+  {
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "exit_code": 0,
+    "command": [
+      "/usr/local/bin/python",
+      "-u",
+      "/workspace/addbench/build_and_run.py",
+      "--input",
+      "/workspace/addbench/results/pilot/cases.jsonl",
+      "--model",
+      "Qwen/Qwen2.5-0.5B-Instruct",
+      "--device",
+      "cuda",
+      "--max-new-tokens",
+      "96",
+      "--out",
+      "/workspace/addbench/results/pilot/Qwen2.5-0.5B-Instruct.jsonl"
+    ]
+  },
+  {
+    "model": "HuggingFaceTB/SmolLM2-360M-Instruct",
+    "exit_code": 0,
+    "command": [
+      "/usr/local/bin/python",
+      "-u",
+      "/workspace/addbench/build_and_run.py",
+      "--input",
+      "/workspace/addbench/results/pilot/cases.jsonl",
+      "--model",
+      "HuggingFaceTB/SmolLM2-360M-Instruct",
+      "--device",
+      "cuda",
+      "--max-new-tokens",
+      "96",
+      "--out",
+      "/workspace/addbench/results/pilot/SmolLM2-360M-Instruct.jsonl"
+    ]
+  }
+]

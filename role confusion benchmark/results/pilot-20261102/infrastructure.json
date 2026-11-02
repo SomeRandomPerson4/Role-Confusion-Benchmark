@@ -1,0 +1,13 @@
+{
+  "pod_id": "rmfmqyd9pfwyon",
+  "gpu": "NVIDIA L4",
+  "gpu_hourly_price": 0.59,
+  "data_center": "EUR-IS-1",
+  "image": "runpod/pytorch:1.0.2-cu1281-torch280-ubuntu2404",
+  "status": "terminated",
+  "execution": "Pod startup command; artifacts exported through container logs",
+  "image_digest": "sha256:0a360022e8de4375af99430f84e8b38951acc397252163a37ceac7204d01be35",
+  "termination_verified": "get-pod returned 404 pod not found",
+  "artifact_sha256": "524385bd99dc43ec253e90b4d3d0b4d91e33f51186812753848f52f34b114997",
+  "billing": "Billing query returned no records yet; final charge not available."
+}

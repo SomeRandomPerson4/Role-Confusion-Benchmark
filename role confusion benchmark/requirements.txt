@@ -1,0 +1,12 @@
+# Install CUDA-enabled torch separately; see README.md.
+torch==2.8.0
+transformers==4.57.6
+accelerate==1.15.0
+safetensors==0.8.0
+huggingface-hub==0.36.2
+tokenizers==0.22.2
+numpy==2.1.2
+Jinja2==3.1.6
+regex==2026.9.29
+tqdm==4.70.1
+hf-xet==1.8.0
